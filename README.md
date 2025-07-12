@@ -46,7 +46,7 @@ employee-directory/
 
 ## Screenshots
 
-![ main intreface](https://github.com/Kothapalli-Ahamad/Employee/blob/82590ad81518e037bb3fadb1bae41c260df28cb6/Screenshot%202025-07-12%20163541.png)
+![ main intreface](https://github.com/Kothapalli-Ahamad/Employee/blob/f4e849eb9cdda3f40fd64bbedfa9c31db0c5baae/Screenshot%202025-07-12%20165324.png)
 
 
 ![ add employee](https://github.com/ujwalsingamsetti/Employee-Directory/blob/bf406ee16bf53be0ae21dd2f888f5a5441c5252a/screenshot2.png)
