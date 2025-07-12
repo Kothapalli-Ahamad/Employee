@@ -1,84 +1,93 @@
-/* Dark Theme with Smooth Transitions */
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #111827;
-    color: #f9fafb;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #0d1117;
+    color: #c9d1d9;
 }
 
 .container {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background: #1f2937;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    background-color: #161b22;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
     transition: all 0.3s ease;
 }
 
 .header h1 {
     font-size: 28px;
     margin: 0;
-    color: #ffffff;
-    font-weight: 700;
-    transition: color 0.3s ease;
+    color: #58a6ff;
 }
 
 .header p {
-    color: #9ca3af;
-    font-size: 15px;
+    font-size: 14px;
+    color: #8b949e;
 }
 
-.controls input, .controls select, .form-content input, .form-content select, .filter-content input {
-    background-color: #374151;
-    border: 1px solid #4b5563;
-    color: #f3f4f6;
-    transition: background-color 0.3s ease, color 0.3s ease;
+.controls input,
+.controls select,
+.controls button {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #30363d;
+    background-color: #21262d;
+    color: #c9d1d9;
+    transition: all 0.3s ease;
 }
 
-.controls button, .form-content button, .filter-content button {
-    transition: background 0.3s ease, transform 0.2s ease;
-}
-
-#add-employee, #filter-btn, .form-content button:first-child, .filter-content button:first-child {
-    background-color: #6366f1;
+.controls button:hover {
+    background-color: #238636;
     color: white;
 }
 
-#add-employee:hover, #filter-btn:hover, .form-content button:first-child:hover {
-    background-color: #4f46e5;
-    transform: scale(1.05);
-}
-
 .employee-card {
-    background: #374151;
-    border: 1px solid #4b5563;
-    color: #e5e7eb;
-    transition: transform 0.2s ease, background-color 0.3s ease;
+    background-color: #21262d;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 12px;
+    color: #c9d1d9;
+    transition: transform 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .employee-card:hover {
-    transform: translateY(-5px);
-    background-color: #4b5563;
+    transform: scale(1.03);
 }
 
-.pagination select, .pagination button {
-    background: #1f2937;
-    color: #d1d5db;
+.employee-card h3 {
+    font-size: 14px;
+    color: #58a6ff;
+    margin: 0 0 4px 0;
 }
 
-.pagination button.active {
-    background-color: #6366f1;
-    color: #fff;
+.employee-card p {
+    font-size: 12px;
+    margin: 2px 0;
+    color: #8b949e;
 }
 
-.form-content, .filter-content {
-    background: #1f2937;
-    color: #f3f4f6;
+.employee-card button {
+    font-size: 12px;
+    margin: 2px;
+    border: none;
+    background: none;
+    color: #58a6ff;
+    cursor: pointer;
+    transition: color 0.2s ease;
 }
 
-.close-btn {
-    color: #9ca3af;
+.employee-card button:hover {
+    color: #1f6feb;
+}
+
+#employee-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
 }
