@@ -51,4 +51,4 @@ employee-directory/
 
 
 
-![ add employee](https://github.com/Kothapalli-Ahamad/Employee/blob/91a1ba0c328840653d3f6a946e2c78e6def8c29a/Screenshot%202025-07-12%20165300.png)
+![ add employee](https://github.com/Kothapalli-Ahamad/Employee/blob/a6fb1db5838545de7901461322f54b87d9048540/Screenshot%202025-07-12%20165402.png)
