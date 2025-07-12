@@ -8,47 +8,7 @@ let employees = [
     { id: 7, firstName: 'Karan', lastName: 'Gupta', email: 'karan.gupta@company.com', department: 'IT', role: 'System Admin' },
     { id: 8, firstName: 'Sneha', lastName: 'Iyer', email: 'sneha.iyer@company.com', department: 'HR', role: 'Recruiter' },
     { id: 9, firstName: 'Arjun', lastName: 'Joshi', email: 'arjun.joshi@company.com', department: 'Finance', role: 'Financial Analyst' },
-    { id: 10, firstName: 'Divya', lastName: 'Kapoor', email: 'divya.kapoor@company.com', department: 'Marketing', role: 'Content Creator' },
-    { id: 11, firstName: 'Rahul', lastName: 'Chopra', email: 'rahul.chopra@company.com', department: 'IT', role: 'Senior Developer' },
-    { id: 12, firstName: 'Pooja', lastName: 'Malhotra', email: 'pooja.malhotra@company.com', department: 'HR', role: 'Training Coordinator' },
-    { id: 13, firstName: 'Siddharth', lastName: 'Verma', email: 'siddharth.verma@company.com', department: 'Finance', role: 'Auditor' },
-    { id: 14, firstName: 'Ishita', lastName: 'Nair', email: 'ishita.nair@company.com', department: 'Marketing', role: 'Digital Marketer' },
-    { id: 15, firstName: 'Amit', lastName: 'Bhattacharya', email: 'amit.bhattacharya@company.com', department: 'IT', role: 'Cloud Engineer' },
-    { id: 16, firstName: 'Riya', lastName: 'Saxena', email: 'riya.saxena@company.com', department: 'Sales', role: 'Sales Manager' },
-    { id: 17, firstName: 'Nikhil', lastName: 'Rao', email: 'nikhil.rao@company.com', department: 'IT', role: 'Network Engineer' },
-    { id: 18, firstName: 'Tanya', lastName: 'Mishra', email: 'tanya.mishra@company.com', department: 'HR', role: 'Employee Relations' },
-    { id: 19, firstName: 'Kunal', lastName: 'Pandey', email: 'kunal.pandey@company.com', department: 'Finance', role: 'Budget Analyst' },
-    { id: 20, firstName: 'Shreya', lastName: 'Sen', email: 'shreya.sen@company.com', department: 'Marketing', role: 'Brand Manager' },
-    { id: 21, firstName: 'Aditya', lastName: 'Kumar', email: 'aditya.kumar@company.com', department: 'IT', role: 'Data Analyst' },
-    { id: 22, firstName: 'Meera', lastName: 'Dutta', email: 'meera.dutta@company.com', department: 'HR', role: 'Payroll Specialist' },
-    { id: 23, firstName: 'Vivek', lastName: 'Ghosh', email: 'vivek.ghosh@company.com', department: 'Finance', role: 'Tax Consultant' },
-    { id: 24, firstName: 'Simran', lastName: 'Chatterjee', email: 'simran.chatterjee@company.com', department: 'Marketing', role: 'Social Media Manager' },
-    { id: 25, firstName: 'Sanjay', lastName: 'Bose', email: 'sanjay.bose@company.com', department: 'IT', role: 'Security Analyst' },
-    { id: 26, firstName: 'Anita', lastName: 'Roy', email: 'anita.roy@company.com', department: 'Sales', role: 'Customer Success' },
-    { id: 27, firstName: 'Manish', lastName: 'Singhania', email: 'manish.singhania@company.com', department: 'IT', role: 'UI/UX Designer' },
-    { id: 28, firstName: 'Kavita', lastName: 'Das', email: 'kavita.das@company.com', department: 'HR', role: 'Talent Acquisition' },
-    { id: 29, firstName: 'Rakesh', lastName: 'Banerjee', email: 'rakesh.banerjee@company.com', department: 'Finance', role: 'Investment Analyst' },
-    { id: 30, firstName: 'Swati', lastName: 'Jain', email: 'swati.jain@company.com', department: 'Marketing', role: 'SEO Specialist' },
-    { id: 31, firstName: 'Harsh', lastName: 'Thakur', email: 'harsh.thakur@company.com', department: 'IT', role: 'Backend Developer' },
-    { id: 32, firstName: 'Lakshmi', lastName: 'Pillai', email: 'lakshmi.pillai@company.com', department: 'HR', role: 'Benefits Coordinator' },
-    { id: 33, firstName: 'Prakash', lastName: 'Menon', email: 'prakash.menon@company.com', department: 'Finance', role: 'Cost Accountant' },
-    { id: 34, firstName: 'Preeti', lastName: 'Agarwal', email: 'preeti.agarwal@company.com', department: 'Marketing', role: 'Advertising Coordinator' },
-    { id: 35, firstName: 'Suresh', lastName: 'Lal', email: 'suresh.lal@company.com', department: 'IT', role: 'Full Stack Developer' },
-    { id: 36, firstName: 'Radhika', lastName: 'Goyal', email: 'radhika.goyal@company.com', department: 'Sales', role: 'Account Manager' },
-    { id: 37, firstName: 'Ashok', lastName: 'Trivedi', email: 'ashok.trivedi@company.com', department: 'IT', role: 'QA Engineer' },
-    { id: 38, firstName: 'Sunita', lastName: 'Khanna', email: 'sunita.khanna@company.com', department: 'HR', role: 'Onboarding Specialist' },
-    { id: 39, firstName: 'Deepak', lastName: 'Mukherjee', email: 'deepak.mukherjee@company.com', department: 'Finance', role: 'Risk Analyst' },
-    { id: 40, firstName: 'Nidhi', lastName: 'Sinha', email: 'nidhi.sinha@company.com', department: 'Marketing', role: 'PR Specialist' },
-    { id: 41, firstName: 'Rajesh', lastName: 'Puri', email: 'rajesh.puri@company.com', department: 'IT', role: 'Mobile Developer' },
-    { id: 42, firstName: 'Geeta', lastName: 'Bhardwaj', email: 'geeta.bhardwaj@company.com', department: 'HR', role: 'HR Generalist' },
-    { id: 43, firstName: 'Vijay', lastName: 'Chaudhary', email: 'vijay.chaudhary@company.com', department: 'Finance', role: 'Treasury Analyst' },
-    { id: 44, firstName: 'Pallavi', lastName: 'Seth', email: 'pallavi.seth@company.com', department: 'Marketing', role: 'Event Planner' },
-    { id: 45, firstName: 'Anand', lastName: 'Kulkarni', email: 'anand.kulkarni@company.com', department: 'IT', role: 'AI Engineer' },
-    { id: 46, firstName: 'Shalini', lastName: 'Biswas', email: 'shalini.biswas@company.com', department: 'Sales', role: 'Business Development' },
-    { id: 47, firstName: 'Chetan', lastName: 'Srivastava', email: 'chetan.srivastava@company.com', department: 'IT', role: 'Database Admin' },
-    { id: 48, firstName: 'Renu', lastName: 'Dubey', email: 'renu.dubey@company.com', department: 'HR', role: 'Compliance Officer' },
-    { id: 49, firstName: 'Sandeep', lastName: 'Gandhi', email: 'sandeep.gandhi@company.com', department: 'Finance', role: 'Credit Analyst' },
-    { id: 50, firstName: 'Jyoti', lastName: 'Rastogi', email: 'jyoti.rastogi@company.com', department: 'Marketing', role: 'Graphic Designer' }
+    { id: 10, firstName: 'Divya', lastName: 'Kapoor', email: 'divya.kapoor@company.com', department: 'Marketing', role: 'Content Creator' }
 ];
 let currentPage = 1;
 let itemsPerPage = 10;
@@ -81,8 +41,7 @@ function displayEmployees(emps = filteredEmployees) {
 
 function updatePagination(total) {
     document.getElementById('employee-count').textContent = `${total} employees found`;
-    const totalPages = Math.ceil(total / itemsPerPage);
-    document.getElementById('pagination-info').textContent = `Showing ${start = (currentPage - 1) * itemsPerPage + 1}-${Math.min(currentPage * itemsPerPage, total)} of ${total} results`;
+    document.getElementById('pagination-info').textContent = `Showing ${(currentPage - 1) * itemsPerPage + 1}-${Math.min(currentPage * itemsPerPage, total)} of ${total} results`;
 }
 
 function updatePaginationButtons(total) {
@@ -212,7 +171,10 @@ function resetFilters() {
     hideFilter();
 }
 
-// Event Listeners
+document.addEventListener('DOMContentLoaded', () => {
+    displayEmployees();
+});
+
 document.getElementById('search').addEventListener('input', function() {
     const query = this.value.toLowerCase();
     filteredEmployees = employees.filter(emp =>
@@ -250,7 +212,5 @@ document.getElementById('prev-page').addEventListener('click', () => { if (curre
 document.getElementById('next-page').addEventListener('click', () => { if (currentPage < Math.ceil(filteredEmployees.length / itemsPerPage)) { currentPage++; displayEmployees(); } });
 document.getElementById('last-page').addEventListener('click', () => { currentPage = Math.ceil(filteredEmployees.length / itemsPerPage); displayEmployees(); });
 
-document.getElementById('add-employee').addEventListener('click', showForm);x
+document.getElementById('add-employee').addEventListener('click', showForm);
 document.getElementById('filter-btn').addEventListener('click', showFilter);
-
-displayEmployees();
